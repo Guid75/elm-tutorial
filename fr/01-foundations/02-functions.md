@@ -28,13 +28,13 @@ add 1 2
 
 ### Grouper avec les parenthèses
 
-Lorsque vous voulez appeler une fonction avec le résulat de l'appel d'une autre fonction, vous devez utiliser des parenthèses pour grouper les appels :
+Lorsque vous voulez appeler une fonction avec le résultat de l'appel d'une autre fonction, vous devez utiliser des parenthèses pour grouper les appels :
 
 ```elm
 add 1 (divide 12 3)
 ```
 
-Ici, le résaltat de `divide 12 3` est passé en second paramètre de la fonction `add`.
+Ici, le résultat de `divide 12 3` est passé en second paramètre de la fonction `add`.
 
 En comparaison, beaucoup d'autres langages écriraient la même chose de cette façon :
 
